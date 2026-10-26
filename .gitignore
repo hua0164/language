@@ -1,0 +1,36 @@
+# No dependency installation is required; ignore it if used locally.
+node_modules/
+
+# Local secrets and credentials must not enter the repository.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+.token
+tokens.json
+credentials.json
+service-account*.json
+secrets/
+
+# Logs, local publishing state, and generated archives.
+*.log
+logs/
+npm-debug.log*
+.sites/
+.sites-*/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# dist/ is the maintained static source; .openai/ metadata is retained.

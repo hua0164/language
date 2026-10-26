@@ -1,0 +1,6 @@
+# Only deployable static assets are needed in the image build context.
+**
+!dist/
+!dist/**
+!Dockerfile
+!.dockerignore

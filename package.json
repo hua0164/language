@@ -1,0 +1,15 @@
+{
+  "name": "phenix-chinese",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable static Chinese learning site",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "dev": "node scripts/serve.cjs",
+    "check": "node scripts/validate-curriculum.cjs",
+    "test": "node scripts/validate-curriculum.cjs && node scripts/test-server.cjs && node scripts/test-translation.cjs && node scripts/test-learning-state.cjs"
+  }
+}
